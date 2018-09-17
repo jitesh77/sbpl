@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SBPL Infra Projects</title>
+
+    <!--fevicon css-->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+
+    <!--bootstrap css-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--google fonts css-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,900" rel="stylesheet">
+
+    <!--barfiller css-->
+    <link href="assets/css/barfiller.css" rel="stylesheet">
+
+    <!--magnific popup css-->
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
+
+    <!--font awesome css-->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+
+
+    <!--owl carousel css-->
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+
+    <!--template css-->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!--responsive css-->
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        * {box-sizing: border-box;}
+            body {font-family: Verdana, sans-serif;}
+            .mySlides {display: none;}
+            img {vertical-align: middle;}
+            
+            /* Slideshow container */
+            .slideshow-container {
+              max-width: 500px;
+              position: relative;
+              margin: auto;
+            }
+            
+            /* Caption text */
+            .text {
+              color: black;
+              font-size: 25px;
+              padding: 8px 12px;
+              position: absolute;
+              bottom: 300px;
+              width: 100%;
+              text-align: center;
+            }
+            
+            /* Number text (1/3 etc) */
+            .numbertext {
+              color: #f2f2f2;
+              font-size: 12px;
+              padding: 8px 12px;
+              position: absolute;
+              top: 0;
+            }
+            
+            /* The dots/bullets/indicators */
+            .dot {
+              height: 15px;
+              width: 15px;
+              margin: 0 2px;
+              background-color: #bbb;
+              border-radius: 50%;
+              display: inline-block;
+              transition: background-color 0.6s ease;
+            }
+            
+            .active {
+              background-color: #717171;
+            }
+            
+            /* Fading animation */
+            .fade {
+              -webkit-animation-name: fade;
+              -webkit-animation-duration: 1.5s;
+              animation-name: fade;
+              animation-duration: 1.5s;
+            }
+            
+            @-webkit-keyframes fade {
+              from {opacity: .4} 
+              to {opacity: 1}
+            }
+            
+            @keyframes fade {
+              from {opacity: .4} 
+              to {opacity: 1}
+            }
+            
+            /* On smaller screens, decrease text size */
+            @media only screen and (max-width: 300px) {
+              .text {font-size: 11px}
+           
+                #m1{
+                    margin-left: 8% !important;
+                }
+
+                #m2{
+                    display: none;
+                }
+           }
+           @media screen and (max-width: 600px) {
+            #m1{
+                margin-left: -51%;
+                }
+
+                #m2{
+                    display: none;
+                }
+                #m3{
+                    padding: unset;
+                }
+
+                .navbar-toggler{
+                    margin-top: 9%;
+                     margin-right: 2%;
+                }
+           }
+
+
+
+            </style>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="10">
+
+    <!--loader-->
+    <div class="preloader">
+        <img src="assets/images/loader.gif" alt="">
+    </div>
+    <!--end loader-->
+
+    <!--start navigation area-->
+    <div class="sticky-header">
+        <div class="nav-wraper navbar-light">
+            <div class="navbar navbar-expand-md" id="m3">
+                <nav class="container">
+                    <div class="im" style="margin-right: 1%;
+                    margin-bottom: -4%;">
+                        <img src="assets/images/logo.png" width="60" height="80" id="m2"></div>
+                    <div class="im2" style="    margin-top: 15px;">
+                        <a href="#" class="navbar-brand" style=" margin-bottom: -16px !important;"> <u><b>SBPL Infra
+                                    Projects</b></u></a></div>
+
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu"
+                        aria-expanded="false">
+                        <span class="navbar-icon"><i class="fa fa-bars"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar-menu">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#clients">Clients</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+            <div class="navbar-brand" id="m1">
+                <p style="font-family: Lucida Calligraphy;
+                font-size: 12px;
+                margin-left: 76% !important;">
+                    <i>
+                        (A Infrastructure Development Company)</i></p>
+            </div>
+        </div>
+    </div>
+    <!--end navigation area-->
+
+    <!--start hero-area-->
+    <div id="home" class="home-5 hero-area hero-bg h-100">
+        <div id="particles-js"></div>
+        <div class="container h-100">
+            <div class="row h-100 justify-content-center">
+                <div class="col-lg-8 my-auto text-center">
+                    <div class="hero-content">
+                        <h4 style="color: white !important"> We Make, We Rule! Hard as Concrete, Flexible as Steel! You
+                            Dreamt it We Built it!
+                            Everyday is an Adventure when u are a Civil Engineer!</h4>
+                        <span class="typed-title">Professional</span>
+                        <div class="typed-strings">
+                            <h2>Civil Engineer</h2>
+                        </div>
+                        <span class="typed"></span>
+
+                        <span class="social-links">
+                            <a href="https://www.facebook.com/surendra.khandelwal.186?fb_dtsg_ag=AdwheEofx8XKXKOSu3r4sqN38siZoH4LsMmGhbkfHxH0Qg%3AAdyehna5SypecHASaBJM8CPu4k_DSfan5c_6x_Gtsz7LQg"
+                                target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.linkedin.com/in/surendra-khandelwal-97185515a/" target="_blank"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end hero-area-->
+
+    <!--start about-area-->
+    <div id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="left-content">
+                        <h3>hello! i am Surendra Khandelwal</h3>
+                        <h6>Civil Engineer / Contractor</h6>
+                        <p>I am a professional civil engineer with an experience of more than 30 years and the CEO of
+                            SBPL INFRA PROJECTS.
+                            I am capable of working independently with minimum supervision and committed to provide
+                            high quality service in every project in the best possible way.
+                            Our at most focus stays towards health, safety and environmental issues.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="about-author">
+                        <img src="assets/images/about-author.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="right-content">
+                        <!--single bar-->
+                        <div class="single-bar">
+                            <h4>Infrastructure Development</h4>
+                            <div id="bar1" class="barfiller">
+                                <span class="tip"></span>
+                                <span class="fill" data-percentage="95"></span>
+                            </div>
+                        </div>
+                        <!--single bar-->
+                        <div class="single-bar">
+                            <h4>Elevated Reservoir Development</h4>
+                            <div id="bar2" class="barfiller">
+                                <span class="tip"></span>
+                                <span class="fill" data-percentage="90"></span>
+                            </div>
+                        </div>
+                        <!--single bar-->
+                        <div class="single-bar">
+                            <h4>Sewage Treatment Plant Installation</h4>
+                            <div id="bar3" class="barfiller">
+                                <span class="tip"></span>
+                                <span class="fill" data-percentage="95"></span>
+                            </div>
+                        </div>
+                        <!--single bar-->
+                        <div class="single-bar">
+                            <h4>Water Line Installation</h4>
+                            <div id="bar4" class="barfiller">
+                                <span class="tip"></span>
+                                <span class="fill" data-percentage="90"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end about-area-->
+
+    <!--start service area-->
+    <div id="services" class="section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="section-title">
+                    <h2>services</h2>
+                    <img src="assets/images/separator.png" alt="">
+                    <div class="space-70"></div>
+                </div>
+            </div>
+            <div class="row">
+                <!--single-service-->
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-service-item">
+                        <div class="service-title">
+                            <div class="service-icon">
+                                <i class="far fa-building"></i>
+                            </div>
+                            <h4>Infrastructure Development</h4>
+                        </div>
+                        <p>Infrastructure is always driven by entrepreneurial spirit. Whether it is the government or
+                            the private parties the key is arranging resources and employing a committed spirit.
+                            <br>
+                            <br>
+                            <br>
+                            <br></p>
+                    </div>
+                </div>
+                <!--single-service-->
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-service-item">
+                        <div class="service-title">
+                            <div class="service-icon">
+                                <i class="fas fa-registered"></i>
+                            </div>
+                            <h4>Elevated Reservoir Development</h4>
+                        </div>
+                        <p>The composite elevated tank is well-established as extremely cost competitive, most notably
+                            in large capacities. This is due to its well balanced design, efficient use of construction
+                            materials, and productive construction practices.</p>
+                    </div>
+                </div>
+                <!--single-service-->
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-service-item">
+                        <div class="service-title">
+                            <div class="service-icon">
+                                <i class="fas fa-tint"></i>
+                            </div>
+                            <h4>Sewage Treatment Plant Installation</h4>
+                        </div>
+                        <p>The main advantage of waste water systems is the prevention of the spread of disease through
+                            communities. Another advantage is the prevention of pollution and maintaining rivers and
+                            streams in a healthy and ecologically sound condition.</p>
+                    </div>
+                </div>
+                <!--single-service-->
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-service-item">
+                        <div class="service-title">
+                            <div class="service-icon">
+                                <i class="fas fa-inbox"></i>
+                            </div>
+                            <h4>Water Line Installation</h4>
+                        </div>
+                        <p>A piping construction engineer plans the schedule of piping works, assists with material
+                            procurement, oversees installations and maintenance operations and supervises construction
+                            staff. <br>
+                            <br></p>
+                    </div>
+                </div>
+                <!--single-service-->
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-service-item">
+                        <div class="service-title">
+                            <div class="service-icon">
+                                <i class="fas fa-arrow-alt-circle-down"></i>
+                            </div>
+                            <h4>Underground Reservoir</h4>
+                        </div>
+                        <p>The underground water reservoir system, designed to effectively use natural gift of
+                            rainwater, provides a solution to these issues and problems.
+                            <br>
+
+
+                            <br></p>
+                    </div>
+                </div>
+                <!--single-service-->
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-service-item">
+                        <div class="service-title">
+                            <div class="service-icon">
+                                <i class="fa fa-life-ring"></i>
+                            </div>
+                            <h4>Sewage Line Installation</h4>
+                        </div>
+                        <p> Installing, repairing, and maintaining pipes, fixtures and other plumbing used for water
+                            distribution and waste water disposal in residential, commercial and industrial buildings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end service-area-->
+
+    <!--start portfolio-area-->
+    <div id="portfolio" class="section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="section-title">
+                    <h2>Projects</h2>
+                    <img src="assets/images/separator.png" alt="">
+                    <div class="space-70"></div>
+                </div>
+            </div>
+
+            <div class="row project-lists">
+                <!--single-work-->
+                <div class="col-lg-4 col-md-6 design">
+                    <div class="single-work">
+                        <img src="assets/images/1.jpg" alt="">
+                        <div class="project-hover">
+                            <div class="project-title">
+                                <h5>Project</h5>
+                                <h4>Shifting of 100 year old running egg shape sewer by 1200mm RCC pit</h4>
+                            </div>
+                            <div class="icon">
+                                <a href="assets/images/1.jpg" class="gallary"><i class="fa fa-search-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--single-work-->
+                <div class="col-lg-4 col-md-6 wordpress">
+                    <div class="single-work">
+                        <img src="assets/images/2.jpg" alt="">
+                        <div class="project-hover">
+                            <div class="project-title">
+                                <h5>Project</h5>
+                                <h4>600mm DI Line Water supply project in Mahindra World City Jaipur</h4>
+                            </div>
+                            <div class="icon">
+                                <a href="assets/images/2.jpg" class="gallary"><i class="fa fa-search-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--single-work-->
+                <div class="col-lg-4 col-md-6 graphic">
+                    <div class="single-work">
+                        <img src="assets/images/3.jpg" alt="">
+                        <div class="project-hover">
+                            <div class="project-title">
+                                <h5>Project</h5>
+                                <h4>Sewer & Harvesting Line at Mahatma Gandhi Hospital Jaipur</h4>
+                            </div>
+                            <div class="icon">
+                                <a href="assets/images/3.jpg" class="gallary"><i class="fa fa-search-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--single-work-->
+                <div class="col-lg-4 col-md-6 wordpress">
+                    <div class="single-work">
+                        <img src="assets/images/4.jpg" alt="">
+                        <div class="project-hover">
+                            <div class="project-title">
+                                <h5>Project</h5>
+                                <h4>Mahindra World City Jaipur water supply project</h4>
+                            </div>
+                            <div class="icon">
+                                <a href="assets/images/4.jpg" class="gallary"><i class="fa fa-search-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--single-work-->
+                <div class="col-lg-4 col-md-6 graphic">
+                    <div class="single-work graphic">
+                        <img src="assets/images/5.jpg" alt="">
+                        <div class="project-hover">
+                            <div class="project-title">
+                                <h5>Project</h5>
+                                <h4>Inaugration of Murlipura Sewer Jaipur</h4>
+                            </div>
+                            <div class="icon">
+                                <a href="assets/images/5.jpg" class="gallary"><i class="fa fa-search-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--single-work-->
+                <div class="col-lg-4 col-md-6 design">
+                    <div class="single-work">
+                        <img src="assets/images/6.jpg" alt="">
+                        <div class="project-hover">
+                            <div class="project-title">
+                                <h5>Project</h5>
+                                <h4>Tower Erection Work JIO Company</h4>
+                            </div>
+                            <div class="icon">
+                                <a href="assets/images/6.jpg" class="gallary"><i class="fa fa-search-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end portfolio-area-->
+
+    <!--start testimonial-area-->
+    <div id="clients" class="section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="section-title">
+                    <h2>clients</h2>
+                    <img src="assets/images/separator.png" alt="">
+                    <div class="space-70"></div>
+                </div>
+            </div>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="assets/images/JDA.jpg" style="width:100%; ">
+                    <div class="text">Jaipur Development Authority</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="assets/images/rajasthanhousingboard.jpg " style="width:100%; ">
+                    <div class="text">Rajasthan Housing Board</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="assets/images/mahindraworlcity.jpg" style="width:100%; ">
+                    <div class="text">Mahindra World City</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="assets/images/siddhagroup.jpeg" style="width:100%; ">
+                    <div class="text">Siddha Group</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="assets/images/Shreeramgroup.jpeg " style="width:100%; ">
+                    <div class="text">Shree Ram Group</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="assets/images/mahatmagandhihospital.jpg" style="width:100%; ">
+                    <div class="text">Mahatma Gandhi Hospital</div>
+                </div>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+
+            </div>
+
+            <script>
+                var slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) { slideIndex = 1 }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                    setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+            </script>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!--end testimonial-area-->
+
+
+    <!--start contact-->
+    <div id="contact" class="section-padding" style="margin-top: -6%;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="section-title">
+                    <h2>contact</h2>
+                    <img src="assets/images/separator.png" alt="">
+                    <div class="space-70"></div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="location">
+                                <p class="contact-info"><i class="fa fa-map-marker"></i>Shop No. 21,Santosh Nagar,Opp.
+                                    Metro Pillar No. 36
+                                    ,New Aatish Market,Gopalpura Byepass,Jaipur-302020 </p>
+                                <p class="contact-info"><i class="fa fa-phone"></i>+91 9414054170</p>
+                                <p class="contact-info"><i class="fa fa-envelope"></i>sbpl.infra@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="contact-form">
+                                <form method="POST" action="http://formspree.io/example@gmail.com">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <input id="nameField" name="username" type="text" required class="form-control"
+                                                placeholder="Name">
+                                            <span class="form-validation"></span>
+                                            <p id="nameError" style="color: red;"></p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input id="emailField" name="email" type="text" required placeholder="Email">
+                                            <span class="form-validation"></span>
+                                            <p id="emailError" style="color: red;"></p>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <input id="subjectField" name="subject" type="text" required placeholder="Subject">
+                                            <span class="form-validation"></span>
+                                            <p id="subjectError" style="color: red;"></p>
+                                        </div>
+                                    </div>
+                                    <textarea id="messageField" name="message" rows="10" cols="30" placeholder="Message"></textarea>
+                                    <span class="form-validation"></span>
+                                    <p id="messageError" style="color: red;"></p>
+                                    <button class="contact-btn" button id="sendMessageButton" type="button"><span class="font-18 inline-block text-uppercase p-lr15">Send
+                                            Message</span>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end contact-->
+
+    <!--start-footer-area-->
+    <div class="footer-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 text-center">
+                    <h2>SBPL Infra Projects</h2>
+                    <span class="social-links">
+                        <a href="https://www.facebook.com/surendra.khandelwal.186?fb_dtsg_ag=AdwheEofx8XKXKOSu3r4sqN38siZoH4LsMmGhbkfHxH0Qg%3AAdyehna5SypecHASaBJM8CPu4k_DSfan5c_6x_Gtsz7LQg"
+                            target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/in/surendra-khandelwal-97185515a/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>&copy; copyright 2018 <strong>SBPL Infra Projects</strong>. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end-footer-area-->
+
+    <!--scroll to up-->
+    <div class="scroll-up">
+        <div class="scroll-icon"><i class="fa fa-arrow-up"></i></div>
+    </div>
+    <!--end scroll to up-->
+
+
+
+
+    <!--jquery-->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!--form-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sendMessageButton').on('click', function () {
+                var name = $('#nameField').val();
+                var email = $('#emailField').val();
+                var subject = $('#subjectField').val();
+                var message = $('#messageField').val();
+                var atpos = email.indexOf("@"); var dotpos = email.lastIndexOf(".");
+                console.log(name, email, message);
+                var hasError = false;
+                if (name == '') {
+                    hasError = true;
+                    $('#nameError').css('display', 'block');
+                    $('#nameError').text('Please enter your name');
+                    setTimeout(function () {
+                        $('#nameError').fadeOut('slow');
+                    }, 4000);
+                } else if (email == '') {
+                    hasError = true;
+                    $('#emailError').css('display', 'block');
+                    $('#emailError').text('Please enter your email');
+                    setTimeout(function () {
+                        $('#emailError').fadeOut('slow');
+                    }, 4000);
+                } else if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= email.length) {
+                    hasError = true;
+                    $('#emailError').css('display', 'block');
+                    $('#emailError').text('Please enter your correct email');
+                    setTimeout(function () {
+                        $('#emailError').fadeOut('slow');
+                    }, 4000);
+                } else if (subject == '') {
+                    hasError = true;
+                    $('#subjectError').css('display', 'block');
+                    $('#subjectError').text('Please write subject');
+                    setTimeout(function () {
+                        $('#subjectError').fadeOut('slow');
+                    }, 4000);
+                } else if (message == '') {
+                    hasError = true;
+                    $('#messageError').css('display', 'block');
+                    $('#messageError').text('Please write your message');
+                    setTimeout(function () {
+                        $('#messageError').fadeOut('slow');
+                    }, 4000);
+                }
+                if (!hasError) {
+                    var sms = "email.php";
+                    var url = sms + "?name=" + name + "&email=" + email + "&subject=" + subject + "&message=" + message;
+                    console.log(url);
+                    if (window.XMLHttpRequest) {
+                        var xmlhttp = new XMLHttpRequest();
+                    } else {
+                        var xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    xmlhttp.onreadystatechange = function () {
+                        if (xmlhttp.readyState == 4) {
+                            var response = xmlhttp.responseText;
+                            if (response == 1) {
+                                $('#nameField').val('');
+                                $('#emailField').val('');
+                                $('#subjectField').val('');
+                                $('#messageField').val('');
+                                $('#successMessage').css('display', 'block');
+                                $('#successMessage').text('Your message has been sent successfully.');
+                                setTimeout(function () {
+                                    $('#successMessage').fadeOut('slow');
+                                }, 4000);
+                            }
+
+                            if (response == 0) {
+                                $('#successMessage').css('display', 'block');
+                                $('#successMessage').text('Sending Failed!, Please try again');
+                                setTimeout(function () {
+                                    $('#successMessage').fadeOut('slow');
+                                }, 4000);
+                            }
+                        }
+                    }
+                    xmlhttp.open("GET", url, true);
+                    xmlhttp.send();
+                }
+            });
+        });
+    </script>
+
+    <!--bootstrap js-->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!--barfiller js-->
+    <script src="assets/js/jquery-barfiller-1.01.js"></script>
+
+    <!--typed js-->
+    <script src="assets/js/typed.min.js"></script>
+
+    <!--sticky js-->
+    <script src="assets/js/jquery.sticky.js"></script>
+
+    <!--isotope js-->
+    <script src="assets/js/jquery-isotope-3.0.5.min.js"></script>
+
+    <!--magnific popup js-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!--owl carousel js-->
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <!--particles js-->
+    <script src="assets/js/particles.js"></script>
+
+    <!--app js-->
+    <script src="assets/js/app.js"></script>
+
+    <!--water ripple js-->
+    <script src="assets/js/jquery.ripples-min.js"></script>
+
+    <!--main js-->
+    <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
